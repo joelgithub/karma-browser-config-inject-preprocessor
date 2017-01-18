@@ -1,0 +1,29 @@
+{
+  "name": "karma-browser-config-inject-preprocessor",
+  "version": "1.1.0",
+  "description": "A Karma plugin. Inject karma conf into pact tests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joelgithub/karma-browser-config-inject-preprocessor.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-preprocessor"
+  ],
+  "author": "Joel Andersson <joelanderss@gmail.com>",
+  "dependencies": {
+    "object-assign": "^4.1.0"
+  },
+  "peerDependencies": {
+    "karma": ">=0.11.14"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  },
+  "contributors": []
+}
